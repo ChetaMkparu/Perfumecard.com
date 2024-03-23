@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat" "Fraunces" "sans serif";
+    background-color: #F3EAE3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px 0;
+}
+
+.product-img{
+    display: inline;
+    border-radius: 5px 5px 0 0;
+    margin: 0px 20px 0px;
+    min-height: 40vh;
+    width: 90%;
+}
+
+.product-container{
+    background-color: #ffff;
+    border-radius: 0 0 5px 5px;
+    height: 140vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 50px;
+    padding: 10px;
+    
+}
+.product-category{
+    font-family: montserrat;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #aaabaf;
+    padding: 10px;
+
+}
+
+.product-name{
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1;
+    color: #000000;
+    padding: 10px;
+}
+
+.product-description{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #aaabaf;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding: 15px;
+    letter-spacing: 0.5;
+}
+
+.product-price{
+    display: inline;
+    font-family: fraunces;
+    font-weight: 600;
+    color: #3D8168;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.product-price-old{
+    display: inline;
+    font-family: fraunces;
+    font-weight: 600;
+    color: #aaabaf;
+    font-size: 1em;
+    text-decoration: line-through;
+    padding: 2px 20px 5px;
+
+}
+
+.product-button{
+    font-family: montserrat;
+    text-decoration: none;
+    border: 1px solid #3D8168;
+    border-radius: 5px;
+    background-color:#3D8168;
+    color: white;
+    height: 10%;
+    width: 90%;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 15px 15px;
+
+}
+
+@media (min-width: 960px){
+ .product-main {
+    display: flex;
+    border-radius: 5px 0px 0 5px;
+    flex-direction: row;
+    min-height: 30vh;
+    width: 150%;
+ 
+}
+ .product-img{
+    display: block;
+    border-radius: 5px 0px 0 5px;
+    margin: 0 0px 0 40px;
+    max-width: 350px;
+    min-height: 510px;
+    
+ }
+
+ .product-container{
+    height: 510px;
+    width: 30%;
+    margin: 0 30px 0 0px;
+    border-radius: 0px 5px 5px 0px;
+
+
+   
+    
+}
+
+}
+
+
